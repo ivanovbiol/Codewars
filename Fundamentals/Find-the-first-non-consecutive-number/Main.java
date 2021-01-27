@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int[] firstArr = Arrays.stream(scan.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+        int[] intArr = Arrays.stream(scan.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
 
-        System.out.println(FirstNonConsecutive.find(firstArr));
+        System.out.println(FirstNonConsecutive.find(intArr));
 
     }
 
