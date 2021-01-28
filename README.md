@@ -1,1 +1,1 @@
-# Codewars.com tasks
+# Tasks from Codewars.com 
