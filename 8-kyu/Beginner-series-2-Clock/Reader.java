@@ -1,25 +1,14 @@
 import java.util.Scanner;
 
-public class Main {
+public class Reader {
 
-    public static final String INVALID_HOUR_MESSAGE = "Invalid hour (range from 0 till 23)";
-    public static final String INVALID_MINUTES_MESSAGE = "Invalid minutes (range from 0 till 59)";
-    public static final String INVALID_SECONDS_MESSAGE = "Invalid seconds (range from 0 till 59)";
+    private static final String INVALID_HOUR_MESSAGE = "Invalid hour (range from 0 till 23)";
+    private static final String INVALID_MINUTES_MESSAGE = "Invalid minutes (range from 0 till 59)";
+    private static final String INVALID_SECONDS_MESSAGE = "Invalid seconds (range from 0 till 59)";
 
-    public static void main(String[] args) {
+    public static int readHour() {
         Scanner scanner = new Scanner(System.in);
 
-        int hour = readHour(scanner);
-
-        int minutes = readMinutes(scanner);
-
-        int seconds = readSeconds(scanner);
-
-        System.out.println(Clock.Past(hour, minutes, seconds));
-
-    }
-
-    private static int readHour(Scanner scanner) {
         int hour = Integer.parseInt(scanner.nextLine());
 
         while (isNotValidHour(hour)) {
@@ -32,7 +21,9 @@ public class Main {
         return hour;
     }
 
-    private static int readMinutes(Scanner scanner) {
+    public static int readMinutes() {
+        Scanner scanner = new Scanner(System.in);
+
         int minutes = Integer.parseInt(scanner.nextLine());
 
         while (areNotValidMinutesAndSeconds(minutes)) {
@@ -45,7 +36,9 @@ public class Main {
         return minutes;
     }
 
-    private static int readSeconds(Scanner scanner) {
+    public static int readSeconds() {
+        Scanner scanner = new Scanner(System.in);
+
         int seconds = Integer.parseInt(scanner.nextLine());
 
         while (areNotValidMinutesAndSeconds(seconds)) {
@@ -65,5 +58,4 @@ public class Main {
     private static boolean areNotValidMinutesAndSeconds(int minutesOrSeconds) {
         return minutesOrSeconds < 0 || minutesOrSeconds > 59;
     }
-
 }
