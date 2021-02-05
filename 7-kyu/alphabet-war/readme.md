@@ -9,17 +9,17 @@ Write a function that accepts fight string consists of only small letters and re
 
 The left side letters and their power:  
 
- w - 4
- p - 3
- b - 2
- s - 1
+ w - 4  
+ p - 3  
+ b - 2  
+ s - 1  
 
 The right side letters and their power:  
 
- m - 4
- q - 3
- d - 2
- z - 1
+ m - 4  
+ q - 3  
+ d - 2  
+ z - 1  
 
 The other letters don't have power and are only victims.  
 
