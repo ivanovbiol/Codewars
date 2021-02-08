@@ -9,4 +9,4 @@ Notes:
 
 - Every new simple input (an integer, a String, etc.) should be writtten on a new line in the console.  
 
-- If the input is sequence of elements (Array) they should be written on a single line separated by coma and followed by space (e.g. 1, 2, 3, 4, 5 or Pesho, Gosho, Tosho). Every new sequence of elements (if such is required) should be written on a new line.    
+- If the input is sequence of elements (Array) they should be written on a single line separated by coma and followed by space (e.g. 1, 2, 3, 4, 5). Every new sequence of elements (if such is required) should be written on a new line.    
