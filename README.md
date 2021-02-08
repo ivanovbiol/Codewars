@@ -3,7 +3,7 @@
 
 Notes:  
 
-- There are no Main and Reader classes in the original task in codewars.com. I have introduced such classes in my tasks in order to design them as complete programs.  
+- There are no Main and Reader classes in the original tasks in codewars.com. I have introduced such classes in my tasks in order to design them as complete programs.  
 
 - The input data is being read from the console of IntelliJ IDEA.  
 
