@@ -3,6 +3,7 @@ Clock shows h hours, m minutes and s seconds after midnight.
 Your task is to write a function which returns the time since midnight in milliseconds.
 
 Example:
+(The input will be numbers, every number on a new line)
 h = 0
 m = 1
 s = 1
@@ -14,3 +15,4 @@ Input constraints:
 0 <= h <= 23
 0 <= m <= 59
 0 <= s <= 59
+

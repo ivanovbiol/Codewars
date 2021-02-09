@@ -1,4 +1,3 @@
-
 public class Main {
 
     public static void main(String[] args) {
@@ -6,7 +5,6 @@ public class Main {
         double cockroachSpeed = Reader.readRealNumber();
 
         System.out.println(Cockroach.cockroachSpeed(cockroachSpeed));
+
     }
-
-
 }

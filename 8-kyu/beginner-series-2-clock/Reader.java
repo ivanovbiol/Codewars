@@ -7,6 +7,7 @@ public class Reader {
     private static final String INVALID_SECONDS_MESSAGE = "Invalid seconds (range from 0 till 59)";
 
     public static int readHour() {
+
         Scanner scanner = new Scanner(System.in);
 
         int hour = Integer.parseInt(scanner.nextLine());
@@ -22,6 +23,7 @@ public class Reader {
     }
 
     public static int readMinutes() {
+
         Scanner scanner = new Scanner(System.in);
 
         int minutes = Integer.parseInt(scanner.nextLine());
@@ -37,6 +39,7 @@ public class Reader {
     }
 
     public static int readSeconds() {
+
         Scanner scanner = new Scanner(System.in);
 
         int seconds = Integer.parseInt(scanner.nextLine());
@@ -52,10 +55,14 @@ public class Reader {
     }
 
     private static boolean isNotValidHour(int hour) {
+
         return hour < 0 || hour > 23;
+
     }
 
     private static boolean areNotValidMinutesAndSeconds(int minutesOrSeconds) {
+
         return minutesOrSeconds < 0 || minutesOrSeconds > 59;
+
     }
 }
