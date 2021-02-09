@@ -18,7 +18,7 @@ public class Writer {
 
         }
 
-        System.out.println(sb.toString());
+        System.out.println(sb.toString().trim());
 
     }
 }
