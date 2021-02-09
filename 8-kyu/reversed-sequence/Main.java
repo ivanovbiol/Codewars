@@ -6,9 +6,12 @@ public class Main {
 
         int number = Reader.readNumber();
 
-        // I won't remove the brackets and the commas from the printed output
-        System.out.println(Arrays.toString(Sequence.reverse(number)));
+        System.out.println(
+                Arrays
+                        .toString(Sequence.reverse(number))
+                        .replace("[", " ")
+                        .replace("]", " ")
+                        .trim());
+
     }
-
-
 }

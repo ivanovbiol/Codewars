@@ -7,6 +7,4 @@ public class CharProblem {
         return Integer.parseInt(Arrays.asList(herOld.split("\\s+")).get(0));
 
     }
-
 }
-

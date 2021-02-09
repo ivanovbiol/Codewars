@@ -5,6 +5,6 @@ public class Kata {
         StringBuilder sb = new StringBuilder(input);
 
         return sb.reverse().toString();
-    }
 
+    }
 }

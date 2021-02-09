@@ -2,17 +2,18 @@ import java.util.Scanner;
 
 public class Reader {
 
-    private static final String WARNING_MESSAGE = "Please enter positive number";
+    private static final String WARNING_MESSAGE = "Please enter a positive number";
 
     public static int readNumber() {
 
-        Scanner scanner = new Scanner(System.in);
-
-        int number = Integer.parseInt(scanner.nextLine());
+        int number = Integer.parseInt(new Scanner(System.in).nextLine());
 
         while (number <= 0) {
+
             System.out.println(WARNING_MESSAGE);
-            number = Integer.parseInt(scanner.nextLine());
+
+            number = Integer.parseInt(new Scanner(System.in).nextLine());
+
         }
 
         return number;
