@@ -1,21 +1,16 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        int[] arr = Arrays.stream(scanner.nextLine().split("\\s+")).mapToInt(Integer::parseInt)
-                .toArray();
+        int[] arr = Reader.readIntegerArray();
 
-        StringBuilder sb = new StringBuilder();
+        System.out.println(Arrays
+                .toString(Kata.invert(arr))
+                .replace("[", " ")
+                .replace("]", " ")
+                .trim());
 
-        Arrays.stream(Kata.invert(arr)).forEach(value -> {
-            sb.append(value).append(" ");
-        });
-
-        System.out.println(sb.toString().trim());
     }
-
 }
