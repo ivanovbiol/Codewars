@@ -16,7 +16,7 @@ public class Reader {
                         .replace("[", " ")
                         .replace("]", " ")
                         .trim()
-                        .split("\\s+"))
+                        .split("//s+"))
                         .mapToInt(Integer::parseInt)
                         .toArray();
 

@@ -1,8 +1,8 @@
-You get an array of numbers, return the sum of all of the positives ones.
+You get an array of numbers, return the sum of all of the positives ones.  
 
-Input format: [1, -4, 7, 12]
-For empty array: []
+Input format: [1, -4, 7, 12]  
+For empty array: []  
 
-Example [1,-4,7,12] => 1 + 7 + 12 = 20
+Example [1,-4,7,12] => 1 + 7 + 12 = 20  
 
-Note: if there is nothing to sum, the sum is default to 0.
+Note: if there is nothing to sum, the sum is default to 0.  
