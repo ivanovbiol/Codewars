@@ -15,9 +15,11 @@ public class ZywOo {
         Collections.reverse(integerList);
 
         return (integerList.size() <= 1) ? 0 : returnSum(integerList);
+
     }
 
     private static int returnSum(List<Integer> integerList) {
+
         int sum = 0;
 
         for (int i = 0; i < integerList.size() - 1; i++) {
@@ -26,5 +28,6 @@ public class ZywOo {
         }
 
         return sum;
+
     }
 }

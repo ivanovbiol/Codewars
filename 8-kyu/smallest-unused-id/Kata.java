@@ -10,9 +10,11 @@ public class Kata {
         List<Integer> integerList = new ArrayList<>();
 
         Arrays.stream(ids).forEach(e -> {
+
             if (!integerList.contains(e)) {
                 integerList.add(e);
             }
+
         });
 
         Collections.sort(integerList);
@@ -33,7 +35,6 @@ public class Kata {
         }
 
         return integerList.get(integerList.size() - 1) + 1;
+
     }
-
 }
-
