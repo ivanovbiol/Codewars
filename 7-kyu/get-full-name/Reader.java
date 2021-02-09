@@ -2,18 +2,9 @@ import java.util.Scanner;
 
 public class Reader {
 
+    public static String readFirstOrLastName() {
 
-    public static String readFirstName() {
+        return new Scanner(System.in).nextLine();
 
-        Scanner scanner = new Scanner(System.in);
-
-        return scanner.nextLine();
-    }
-
-    public static String readLastName() {
-
-        Scanner scanner = new Scanner(System.in);
-
-        return scanner.nextLine();
     }
 }
