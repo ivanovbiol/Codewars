@@ -25,18 +25,19 @@ class CodeWars {
         BigInteger addressBigInteger = new BigInteger(String.valueOf(address));
         BigInteger streetLengthBigInteger = new BigInteger(String.valueOf(streetLength));
 
+        // If it is the first address
         if (address == 1) {
             return streetLengthBigInteger
                     .multiply(new BigInteger(String.valueOf(2)))
                     .longValue();
         }
 
+        // If it is the last address
         if (addressBigInteger.equals(streetLengthBigInteger.multiply(streetLengthBigInteger))) {
-            return address * 2;
+            return 1L;
         }
 
-        // Used formula (the variables are the incoming parameters of the method):
-        // ((streetLength * 2) - address) + 1
+        // Used formula: ((streetLength * 2) - address) + 1
         BigInteger wholeStreetLength = streetLengthBigInteger.multiply(new BigInteger(String.valueOf(2)));
 
         return wholeStreetLength
