@@ -8,4 +8,4 @@ Complete the function so that it finds the mean of the three scores passed to it
 | 60 <= score < 70    |     'D'      |  
 | 0 <= score < 60     |     'F'      |  
 
-Valid values are all between 0 and 100. 
+Valid values are all between 0 (inclusive) and 100 (inclusive). 
