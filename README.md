@@ -11,12 +11,5 @@ Notes:
 
 - Most of the tests are hidden in codewars.com, this is why i've introduced my own test cases (it will be mentioned with comments in the Test class).
 
-- Tasks are written in Java 11 and tested with JUnit 4.12. Maven dependency:
-
-  <dependency>  
-      <groupId>junit</groupId>  
-      <artifactId>junit</artifactId>  
-      <version>4.12</version>  
-      <scope>test</scope>  
-  </dependency>  
+- Tasks are written in Java 11 and tested with JUnit 4.12. Maven dependency download -> https://mvnrepository.com/artifact/junit/junit/4.12
 
